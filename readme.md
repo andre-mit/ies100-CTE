@@ -18,7 +18,9 @@ A maioria dos funcionários utilizam um desktop da marca DELL, equipado com um p
 A empresa atualmente usa um sistema para geração de nota fiscal a partir do momento em que algum cliente aceite e assine alguma proposta, após isso basta o funcionário colocar os dados no sistema e fazer a emissão da nota.
 Existe outro sistema, que utilizam para calcular o frete e o caminho que o motorista irá fazer para a carga chegar ao seu destino. 
 ### Estrutura Organizacional da área de informática: 
-|graph| -> a
+A Estrutura organizacional está representada pelo seguinte diagrama:
+
+![Alt text](../../../../../C:/Users/andre/Desktop/Projeto%20engenharia%20de%20software/Auto-CTE.drawio.png)
 ### Planos futuros para a área de informática:
 - Efetuar a troca desses desktops por outros melhores, pois já estão ultrapassados
 - efetuar a implantação do sistema para gerar a emissão de CTE mais rapidamente com menos custos.
