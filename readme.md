@@ -3,6 +3,26 @@
 ## Problema atual:
 Ao ser gerada nota fiscal de venda, deve-se gerar o CTE (Conhecimento de Transporte Eletrônico) manualmente, pois o sistema não gera automaticamente.
 ***
+## 1 Características da empresa:
+- Empresa: EGA Assessoria em Comercio Exterior Ltda.
+- Endereço: Praça Gen. Gentil Falcão, 108 – Itaim Bibi, São Paulo – SP.
+- CNPJ: 01.701.615/0001-08
+- Atividades: Empresa focada na área Logística.
+- Planos Futuros: Diminuir custos e implantar completamente o sistema, gerando uma emissão de CTE’s mais rápida e eficaz.
+- Número de Funcionários: De 150 a 200 funcionários.
+
+## 2 CARACTERIZAÇÃO DA ÁREA DE INFORMÁTICA
+### Equipamentos de informática:
+A maioria dos funcionários utilizam um desktop da marca DELL, equipado com um processador i5-4570 e 4gb de memória RAM, junto a um mouse da Logitech sem fio e um teclado da Multilaser.
+### Sistemas de Informações:
+A empresa atualmente usa um sistema para geração de nota fiscal a partir do momento em que algum cliente aceite e assine alguma proposta, após isso basta o funcionário colocar os dados no sistema e fazer a emissão da nota.
+Existe outro sistema, que utilizam para calcular o frete e o caminho que o motorista irá fazer para a carga chegar ao seu destino. 
+### Estrutura Organizacional da área de informática: 
+|graph| -> a
+### Planos futuros para a área de informática:
+- Efetuar a troca desses desktops por outros melhores, pois já estão ultrapassados
+- efetuar a implantação do sistema para gerar a emissão de CTE mais rapidamente com menos custos.
+
 ## 3 Caracterização do sistema
 ### Caracteristicas do sistema AUTO-CTE
 AUTO-CTE - O CTE é um documento fiscal eletrônico, emitido por transportadores de cargas, que tem como finalidade comprovar a prestação de serviço de transporte de cargas. O CTE é um documento fiscal que substitui o conhecimento tradicional de transporte rodoviário de cargas.
@@ -39,7 +59,15 @@ Em Ambos os casos, o envio para o(s) orgão(s) fiscais e demais responsáveis, s
 
 ### Funcionamento do Sistema atual:
 O sistema atual necessita de mão de obra dedicada para a geração do CTE, pois o sistema não gera automaticamente. O sistema atual gera o CTE de forma manual, ou seja, o usuário deve preencher os dados necessários para a geração do CTE, e em seguida enviar o CTE para o cliente, transportador, receita federal, prefeitura e SEFAZ.
-? Tem se como requisito, caso a venda seja proveniente de NF, o arquivo XML de NF
+Atualmente os dados necessários para a geração do CTE são:
+- Dados do emitente
+- Dados do destinatário
+- Dados do transportador
+- Dados do veículo
+- Dados do produto
+- Dados do frete
+- Dados provenientes do sistema de NF (atualmente preenchidos manualmente)
+
 
 ### Entradas e Saídas do sistema:
 - Entrada: Dados da NF (provenientes do sistema de NF ou informados manualmente)
